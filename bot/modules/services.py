@@ -62,7 +62,7 @@ async def start(client, message):
         return await send_message(message, msg)
     elif await CustomFilters.authorized(client, message):
         help_command = f"/{BotCommands.HelpCommand}"
-        start_string = f"This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram.\n<b>Type {help_command} to get a list of available commands</b>"
+        start_string = f"Hey Brave Person Create your own bot A bot by @VJRC_177.\n<b>Type {help_command} to get a list of available commands</b>"
         await send_message(message, start_string)
     else:
         await send_message(message, "You are not a authorized user!")
