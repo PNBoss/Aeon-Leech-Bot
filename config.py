@@ -84,7 +84,7 @@ UPSTREAM_REPO = "https://github.com/blandk77/Aeon"
 UPSTREAM_BRANCH = "main"
 
 # Leech
-LEECH_SPLIT_SIZE = 
+LEECH_SPLIT_SIZE = 0
 AS_DOCUMENT = False
 MEDIA_GROUP = False
 USER_TRANSMISSION = False
